@@ -1,0 +1,30 @@
+/* footerArea ====================*/
+.footerArea{position:relative; width:100%;height: 165px;  z-index:2;background:white;}
+
+/* siteInfoArea ====================*/
+.siteInfoArea{padding:20px 0; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; }
+
+/* siteInfo --------------------*/
+.siteInfoArea .siteInfo{width:1190px; margin:0 auto;}
+.siteInfoArea .siteInfo:after{content:''; display:block; clear:both;}
+.siteInfoArea .siteInfo a{font-size:13px; line-height:15px; color:#808080; font-weight:bold;}
+.siteInfoArea .siteInfo li:hover a{color:#f50b0c;}
+.siteInfoArea .siteInfo li a:focus{color:#f50b0c;}
+
+/* footerLink --------------------*/
+.siteInfoArea .siteInfo .footerLink{float:left;}
+.siteInfoArea .siteInfo .footerLink ul li{float:left; margin-left:10px;}
+.siteInfoArea .siteInfo .footerLink ul li:first-child{margin-left:0px; }
+
+/* familySite --------------------*/
+.siteInfoArea .familySite{float:right;}
+.siteInfoArea .familySite ul li{float:left; margin-left:10px;}
+
+
+
+/* footerBottom ====================*/
+.footerBottom{position:relative; width:1190px; margin:0 auto;}
+.footerBottom .address{padding:20px 0; }
+.footerBottom .address p{margin:3px 0px 0px 0px; font-size:13px;}
+.footerBottom .address a.mailto{color:#666;}
+.footerBottom .address a.mailto:hover{color:#f50b0c;}

@@ -1,0 +1,7 @@
+@import url('_common-style.css');
+
+
+.companytable {width:100%;border:#d2d2d2 solid 1px;text-align:center;border-collapse: collapse;}
+.companytable .company_href {color:blue;font-weight:bold;}
+.companytable thead tr th{padding:6px 0; border:#d2d2d2 solid 1px; border-bottom-width:2px;color:black;}
+.companytable tbody tr td{padding:3px 0;border:#d2d2d2 solid 1px;}

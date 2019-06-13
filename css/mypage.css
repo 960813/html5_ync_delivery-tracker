@@ -1,0 +1,64 @@
+@import url('_common-style.css');
+
+.column1{width:10%;}
+.column2{width:20%;}
+.column3{width:25%;}
+.column4{width:35%;}
+.column5{width:10%;}
+
+table {border-collapse: collapse; background:white; border-radius: 10px;overflow:hidden;width:100%;}
+
+
+table thead tr {height: 50px; background:#4c4563;}
+table thead tr th{font-size:18px; color:white;}
+
+table tbody tr{height:40px; font-size:15px;color:#808080;line-height:1.2; cursor:pointer;}
+table tbody tr:nth-child(even){background:#f5f5f5;}
+table tbody tr:hover{color:#fff;background:#8b80b2;}
+
+input[type=button]{
+  border:none;
+  position:relative;
+  padding: 3px;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.modify_btn{
+  background:#1AAB8A;
+  color:#fff;
+}
+.modify_btn:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.delete_btn{
+  background:#F15F5F;
+  color:#fff;
+}
+.delete_btn:hover{
+  background:#fff;
+  color:#F15F5F;
+}
+
+input[type=button]:before,input[type=button]:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+input[type=button]:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+input[type=button]:hover:before,input[type=button]:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}

@@ -1,0 +1,12 @@
+@import url('_common-style.css');
+
+.space-10{height:10px;}
+.space-20{height:20px;}
+
+.container{text-align:center;margin-top:50px;}
+.container,.container-row{width:100%; overflow:hidden;}
+.col-half{width:50%;float:left;}
+
+.redstyle-ico{color:red;font-size:50px;}
+
+.info-title{font-size:40px;font-weight:bold; line-height:40px;color:black;}

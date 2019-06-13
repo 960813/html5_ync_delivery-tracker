@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+
+
+
+/*////////////////////////////////////
+	헤더&네비게이션
+///////////////////////////////////*/
+.gnbArea ul, .headerTop h1, .headerTop > ul, .depthArea dl > dd{margin:0; padding:0; }
+
+/* header ====================*/
+.header{position:fixed; left:0; top:0; right:0; background:white; border-bottom:3px solid #f52121; z-index:5;}
+
+/* logo */
+.headerTop >h1 >#btn_home_logo{ display:block; width:190px; height:70px; background:url("../images/logo.jpg") 0 0 no-repeat; background-size:cover; text-indent:-99999px;}
+
+/* headerTop ====================*/
+.headerTop{position:relative; display:block; width:1190px; margin:0 auto; padding:22px 0 7px 0;}
+.headerTop:after{content:''; display:block; clear:both;}
+.headerTop h1{position:absolute; left:30px; top:30px;z-index: 1}
+.headerTop ul{float:right; }
+.headerTop ul li{float:left; background:url("../images/header/line.gif") no-repeat 0 center;}
+.headerTop ul li a{display:block; height:27px; line-height:27px; padding:0 12px; color:#282828;}
+
+
+
+
+
+/*////////////////////////
+		GNB
+///////////////////////*/
+.headerBottom{position:relative;}
+
+/*gnbArea : 상단 글로벌 네비게이션바(소개,배송조회,배송업체목록,고객센터) 기본 UI 설정*/
+.gnbArea{width:1190px; margin:0 auto;}
+.gnbArea ul.gnb{margin-left:260px;}
+.gnbArea ul.gnb > li{float:left; margin-left:1px; }
+.gnbArea ul.gnb > li:first-child{margin-left:0px; }
+.gnbArea ul.gnb > li > a{display:block; width:175px; height:48px; line-height:48px; text-align:center; font-size:20px; font-weight:bold; color:red;font-family:"Noto Sans KR", sans-serif;}
+.gnbArea ul.gnb > li.openMenu{/*float:right;*/}
+.gnbArea ul.gnb > li.openMenu > a{width:48px; background:url("../images/header/menu_btn_off.png") no-repeat center center; text-indent:-99999px;}
+
+/* gnbArea_이벤트 */
+.gnbArea ul.gnb > li:hover .depthArea{display:block;}
+.gnbArea ul.gnb > li:hover  > a{color:white; background:red; border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0;font-family:"Noto Sans KR", sans-serif;}
+.gnbArea ul.gnb > li.openMenu:hover > a{background:url("../images/header/menu_btn_on.png") no-repeat center center red; text-indent:-99999px;font-family:"Noto Sans KR", sans-serif;}
+
+
+/* depthArea : GNB_전체메뉴*/
+.depthArea{width: 1200px;margin: 0 auto;display:none;position:absolute;top:48px;left:0;right:0;background:white;border-top:3px solid #f52121;border-bottom:3px solid #f52121;border-right: 1px solid #cecece;}
+.depthArea .depth01{overflow:hidden;}
+
+
+/*////////////////////////
+		GNB_전체메뉴 설정
+///////////////////////*/
+/* depth01 : 1단 메뉴*/
+.depthArea .depth01 > ul > li{width:165px;float:left;}
+.depthArea .depth01 > ul > li > a{display:block;font-size:16px; color:black; font-weight:bold;padding:10px 10px 12px;border-bottom: 1px solid #cecece;border-right: 1px solid #cecece;}
+
+/* depth02 : 2단 메뉴 */
+.depthArea .depth02 > ul{overflow: hidden;}
+.depthArea .depth02 > ul > li{width:165px;height:400px;padding:10px 5px 15px 10px;float:left;border-right: 1px solid #cecece;box-sizing: border-box;}/*width:249px;*/
+.depthArea .depth02 > ul > li:first-child{margin-top:0px;}
+.depthArea .depth02 > ul > li > a{line-height:16px; font-size:14px;  color:#313131;}
+/* depth02_이벤트 */
+.depthArea .depth02 > ul > li > a:hover,
+.depthArea .depth02 > ul > li > a:focus{color:red;text-decoration: underline;}
+
+/*////////////////////////
+	GNB_전체메뉴
+///////////////////////*/
+.depthArea.navMenu{width:1200px;border-left:1px solid #cecece;}
+/* depth01 */
+.depthArea.navMenu .depth01{height:250px;}
+.depthArea.navMenu .depth01 > ul{width:1200px;background:none;}
+.depthArea.navMenu .depth01 > ul > li{width:240px;}
+.depthArea.navMenu .depth01 > ul > li.title_fir > a{text-align:center;}
+.depthArea.navMenu .depth01 > ul > li.title_fir > a span{background:none;padding-right: 0px;color:red;}
+.depthArea.navMenu .depth01 > ul > li:last-child > a{border-right:none;}
+.depthArea.navMenu .depth01 > ul > li:last-child{width:239px;}
+
+/* depth02 */
+.depthArea.navMenu .depth02 > ul > li{padding:17px 4px 17px 10px;width:240px;height:263px;}
+.depthArea.navMenu .depth02 > ul > li > a{display:block;font-size:14px;line-height:16px;margin-bottom:8px;}
+
+/* depth03 */
+.depthArea.navMenu .depth03{padding:2px 0 15px 0;}
+.depthArea.navMenu .depth03 > ul > li{padding-left:20px;background:url('../images/header/ico_dot.png') no-repeat 10px 10px;}
+.depthArea.navMenu .depth03 > ul > li > a{color:#555555;font-size:13px;}
+.depthArea.navMenu .depth03 > ul > li:hover > a, .depthArea.navMenu .depth03 > ul > li > a:focus{color:red;text-decoration: underline;}
+
+/* header 영역 정의 */
+#area_header{position: fixed;z-index: 999; top:0; width:100%;}

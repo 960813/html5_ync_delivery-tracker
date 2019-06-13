@@ -1,0 +1,57 @@
+@import url('_common-style.css');
+
+.trackerForm {display:block;overflow:hidden;}
+
+.trackerForm input[type=submit] {float:left; height: 35px; margin-left:-10px; border: 1px solid #cccccc; border-left: none; font-size: 16px; line-height:16px; background-color: #f0f0f0; padding: 0 6px; border-radius: 0 4px 4px 0; box-sizing: border-box;}
+.trackerForm input[type=submit]:hover{ background-color:gray; color:white;}
+.trackerForm input[type=text] {float:left; margin-left:15px;border: 1px solid #cccccc; height:35px; width: 450px; border-radius: 15px 0 0 15px; box-sizing: border-box; font-size: 16px; text-align: center;}
+.trackerForm select{float:left; border: 1px solid #cccccc; height:35px; border-radius: 15px; box-sizing: border-box; font-size: 16px;}
+
+.has-text-centered {text-align: center;}
+
+.tracking-header{ width:100%; padding:0; position:relative; background: #fff; border-bottom:1px solid hsla(200,2%,50%,.2);}
+.tracking-header .tracking-title{background:#ff3434;height:3.75rem;}
+.tracking-header .tracking-title h1{position:relative; top:50%; transform: translateY(-50%); font-size: 1.25rem; letter-spacing: .25rem; color:#fff;}
+.tracking-header .tracking-status{height:4rem;}
+.tracking-header .tracking-status h1{position:relative; top:50%; transform: translateY(-50%); font-size: 1.65rem; letter-spacing: 1.1; color:#ff3535;}
+.tracking-header .tracking-illustration{margin-bottom:3rem;}
+.tracking-header .tracking-illustration img {width:85%;}
+
+
+.tracking-detail {display:block;width: 600px; margin:20px auto .45rem auto;}
+
+.tracking-progresses {background-color:#fff;  text-align: left;}
+
+.tracking-progresses .tracking-progress-entry {padding:1.625rem; padding-bottom:1rem;}
+.tracking-progresses .tracking-progress-entry:last-child {padding-bottom:0;}
+
+.tracking-progresses .tracking-progress-entry time {font-size: 15px; font-weight:bold; line-height:1.1; text-align:left; color: #585858;}
+
+.tracking-progresses .tracking-progress-entry li {display:flex; flex-flow:row nowrap; padding:.8rem 0; margin: 0; border-bottom:1px solid hsla(200,2%,50%,.2);}
+.tracking-progresses .tracking-progress-entry li .loc {flex-grow:1;}
+.tracking-progresses .tracking-progress-entry li .desc {flex-grow:2;}
+.tracking-progresses .tracking-progress-entry li .desc p {text-align:right;}
+
+.tracking-progresses .tracking-progress-entry li .desc,
+.tracking-progresses .tracking-progress-entry li .loc {flex-basis:0;}
+
+.tracking-progresses .tracking-progress-entry li .desc p:first-child,
+.tracking-progresses .tracking-progress-entry li .loc p:first-child {font-size:.8rem; color:#585858; padding-bottom: .2rem;}
+
+.tracking-progresses .tracking-progress-entry li .desc p:last-child,
+.tracking-progresses .tracking-progress-entry li .loc p:last-child {font-size:.7rem; line-height:1.1; color:#6f6f6f;}
+
+
+/*기본정보*/
+.tracking-info{background-color:#fff;text-align:justify;}
+
+.tracking-info .tracking-info-title{height:2.5rem;border-bottom:1px solid hsla(200,2%,50%,.2);}
+.tracking-info .tracking-info-title h2{position: relative; top:50%; transform: translateY(-50%); font-size: .875rem; line-height: 1.1rem; letter-spacing: .25rem; color:gray;}
+
+.tracking-info ul{padding: .625rem 1.625rem .625rem 1.625rem;}
+.tracking-info ul li{display: flex; flex-flow:row nowrap; padding:.45rem 0;}
+.tracking-info ul li h5{flex-grow:1; color:#a2a2a2;}
+.tracking-info ul li p{flex-grow:2.5; color:#585858;}
+
+.tracking-info ul li h5+p,
+.tracking-info ul li h5 {display:inline; flex-basis:0; font-size: .8rem;}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>YNC Delivery-Tracker</title>
+
+  <link href="../images/ico/icon-128.png" rel="icon" data-n-head="true" sizes="128x128">
+
+  <link rel="stylesheet" type="text/css" href="../css/commingup.css">
+  <script src="../plugins/jquery-3.4.1.min.js"></script>
+  <script src="../js/includeHTML.js"></script>
+
+</head>
+
+<body>
+  <div include-html="../include/header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <div class="remain" id="main_area_container">
+    <div class="centerArea">
+      <div class="left_aside">
+        <h2>고객센터</h2>
+        <ul>
+          <li class="on">
+            <a href="//delivery.foretion.com/pages/commingup.html" title="고객센터">고객센터</a>
+            <div class="subitem_group">
+              <ul>
+                <li class="on">
+                  <a href="//delivery.foretion.com/pages/commingup.html" title="찾아오시는 길">찾아오시는 길</a>
+                </li>
+                <li>
+                  <a href="//delivery.foretion.com/pages/contact.html" title="이메일 문의">이메일 문의</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right_section">
+        <div class="content-top">
+          <div class="content-top-title"> <a href="//delivery.foretion.com/pages/commingup.html" title="찾아오시는 길">찾아오시는 길</a></div>
+          <div class="content-navigation">
+            <span class="content-top-detail">홈 > 고객센터 > 찾아오시는 길</span>
+          </div>
+        </div>
+        <div class="contents-title">■ 위치정보</div>
+        <div id="map" style="width:100%;height:540px;"></div>
+
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3c918ad439c279248c385b1ab772b185"></script>
+        <script>
+          var container = document.getElementById('map');
+          var options = {
+            center: new daum.maps.LatLng(35.847326, 128.582998),
+            level: 3
+          };
+
+          var map = new daum.maps.Map(container, options);
+          // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+          var mapTypeControl = new daum.maps.MapTypeControl();
+
+          // 지도에 컨트롤을 추가해야 지도위에 표시됩니다
+          // daum.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위를 의미합니다
+          map.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
+
+          // 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+          var zoomControl = new daum.maps.ZoomControl();
+          map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
+
+          var markerPosition = new daum.maps.LatLng(35.847326, 128.582998);
+          var marker = new daum.maps.Marker({
+            position: markerPosition
+          });
+          marker.setMap(map);
+        </script>
+        <div class="commingup-info">
+          <p>
+            <strong>주소</strong> : 대구광역시 남구 현충로 170(대명동) 영남이공대학교 컴퓨터정보과<br />
+            <strong>전화</strong> : 010-9904-0960
+          </p>
+        </div>
+        <div class="contents-title">■ 찾아오시는 길</div>
+        <img src="../images/others/subway.png" alt="찾아오시는 길->지하철" width="100%">
+        <img src="../images/others/bus.png" alt="찾아오시는 길->버스" width="100%">
+      </div>
+
+
+    </div>
+  </div>
+  <div include-html="../include/footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+  <script src="../js/sendMessage.js"></script>
+</body>
+
+</html>

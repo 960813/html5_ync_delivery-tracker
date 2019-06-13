@@ -1,0 +1,6 @@
+@import url('_common-style.css');
+
+.commingup-info{text-align:left; font-size:14px; line-height:1.1rem;color:black; margin: 0.5rem 0 2rem 0;}
+
+img{transition: transform .5s; width:100%;height:100%;}
+img:hover{transform: scale(1.5);}

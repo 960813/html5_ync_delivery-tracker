@@ -1,0 +1,5 @@
+@import url('_common-style.css');
+
+.right_section > p {margin-left:0;}
+.right_section > ol {text-align:left; margin-left:20px;}
+.right_section > ol > li {list-style-type:decimal;}

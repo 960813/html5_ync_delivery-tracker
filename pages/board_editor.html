@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>YNC Delivery-Tracker</title>
+
+  <link href="../images/ico/icon-128.png" rel="icon" data-n-head="true" sizes="128x128">
+
+  <link rel="stylesheet" type="text/css" href="../css/board_editor.css">
+  <script type="text/javascript" src="../plugins/se2/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+
+  <script src="../plugins/jquery-3.4.1.min.js"></script>
+  <script src="../js/includeHTML.js"></script>
+  <script src="../js/board_editor.js"></script>
+</head>
+
+<body>
+  <div include-html="../include/header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <div class="remain" id="main_area_container">
+    <div class="centerArea">
+      <div class="content-top">
+        <div class="content-top-title"><a href="//delivery.foretion.com/pages/board_list.html"> 공지사항</a></div>
+        <div class="content-navigation">
+          <span class="content-top-detail">홈 > 공지사항</span>
+        </div>
+      </div>
+
+      <input type="text" id="notice_title" placeholder="제목을 입력해 주세요.">
+      <textarea name="notice_content" id="notice_content"></textarea>
+      <script type="text/javascript">
+        var oEditors = [];
+        nhn.husky.EZCreator.createInIFrame({
+          oAppRef: oEditors,
+          elPlaceHolder: "notice_content",
+          sSkinURI: "../plugins/se2/SmartEditor2Skin.html",
+          fCreator: "createSEditor2"
+        });
+      </script>
+      <input type="button" class="writeboard_btn btn_blue" value="등록"><input type="button" class="cancel_btn btn_gray" value="취소">
+
+    </div>
+  </div>
+
+  <div include-html="../include/footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+</body>
+
+</html>

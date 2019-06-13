@@ -1,0 +1,11 @@
+@import url('_common-style.css');
+
+.remain .centerArea{text-align:inherit;}
+
+.board-view header{color:black;padding-top:11px;padding-bottom:11px;font-size:20px; font-weight:bold;border-bottom: 1px solid #eee;border-top: 2px solid #525eaa;}
+.board-view article{font-family:돋움, Dotum; color:black; line-height:normal;padding-bottom:11px;margin-top:5px;border-bottom: 2px solid #525eaa}
+
+
+.board_btn{float:right; cursor:pointer; width: 85px; height: 40px; padding-right: 2px; line-height: 38px; margin-top:7px;margin-left:5px;border-width: 1px 1px 3px 1px; border-style: solid; border-radius: 2px; font-size: 14px; font-weight: bold;}
+.btn_blue{background: #4a57a8; border-color: #3c4790; text-shadow: 0px -1px #343d8e; color: #fff;}
+.btn_gray{background: #666;    border-color: #444;    text-shadow: 0px -1px #474747;  color: #fff;}

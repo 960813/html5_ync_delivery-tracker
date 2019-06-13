@@ -1,0 +1,85 @@
+@import url('_common-style.css');
+
+
+.main_wrap{ width:100%;text-align:left;overflow:hidden;}
+
+
+/*large_slide_banner*/
+.large_slide_banner{position:relative;z-index:1;height:300px;overflow:hidden;margin-bottom:5px;}
+
+.large_slide_banner ul{margin:0;padding:0; width:calc(100%*2);display:flex;animation:large_slide_banner 12s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.large_slide_banner li{position:relative;width:50%;height:300px;margin:0;}
+.large_slide_banner img{position: relative;left:0;top:0; -webkit-filter: blur(5px);-moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);}
+
+@keyframes large_slide_banner {
+  0% {margin-left:0;}
+  25% {margin-left:0;}
+  50% {margin-left:-100%;}
+  75% {margin-left:-100%;}
+  100% {margin-left:0;}
+}
+.large_slide_banner li .navigation_content{position:absolute;top:0;left:0;z-index:2;width:900px;color:white;font-size:35px;line-height:40px;font-weight:bold;}
+.large_slide_banner li:nth-child(1) .navigation_content{text-align:left;margin-top:145px;margin-left:50px;}
+.large_slide_banner li:nth-child(2) .navigation_content{text-align:left;margin-top:110px;margin-left:650px;}
+
+/*색상 id*/
+#color_red{color:red;}
+.redstyle-ico{color:#FF1212;font-size:35px;}
+.main_wrap .main_section {overflow:hidden;}
+.main_wrap .main_section div{box-sizing:border-box;}
+.classified_box{background-color:#f2f4f7;border:1px solid #dee3eb;}
+
+.main_wrap .main_section .left_section{width:717px;float:left;margin-right:7px;}
+.main_wrap .main_section .left_section .top_quick_navigation {height:90px;margin-bottom:7px;overflow:hidden;}
+.main_wrap .main_section .left_section .top_quick_navigation > div{ width:20%;height:100%;font-size:15px;font-weight:bold;float:left;text-align:center;border-right:1px solid #dee3eb;}
+.main_wrap .main_section .left_section .top_quick_navigation > div:last-child{border-right:none;}
+.main_wrap .main_section .left_section .top_quick_navigation > div >a {color:#555;width:100%;height:100%;display:block;}
+.main_wrap .main_section .left_section .top_quick_navigation > div >a>i{transition: transform .5s;margin-top:15px;margin-bottom:7px;}
+.main_wrap .main_section .left_section .top_quick_navigation > div:hover >a>i{will-change:transform; color:#ED0000;cursor:pointer;transform: scale(1.2);}
+
+.main_wrap .main_section .left_section .bottom_section {overflow:hidden;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice {float:left;height:200px;width:355px;margin-right:7px;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice p.title{box-sizing: border-box;display: inline-block;width:325px;font-size:27px;line-height:30px;color:black; margin:15px 0 0 15px;padding-bottom:7px;border-bottom:dotted 1px black;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice p.title span{color:red;font-weight:bold;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table{width:325px;height:130px;margin:7px 0 0 15px;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table tr{width:100%;height:18px;overflow:hidden;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table tr td{float:left;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table tr td:nth-child(1) a{color:black;display:block; width:220px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table tr td:nth-child(1) a:hover{cursor:pointer;}
+.main_wrap .main_section .left_section .bottom_section .bottom_notice table tr td:nth-child(2){float:right;}
+
+.main_wrap .main_section .left_section .bottom_section .service_info_banner {float:left;height:200px;width:355px;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner p.title{box-sizing: border-box;display: inline-block;width:325px;font-size:27px;line-height:30px;color:black; margin:15px 0 0 15px;padding-bottom:7px;border-bottom:dotted 1px black;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner p.title span{color:red;font-weight:bold;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner span.content {display:block; margin:7px 0 0 15px;width:325px;height:130px;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner table {width:100%;height:100%;color:black;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner table tr {font-size:15px;}
+.main_wrap .main_section .left_section .bottom_section .service_info_banner table tr td:first-child{font-weight:bold;}
+
+
+.notice_more{display: inline-block;position: absolute;margin-left:-65px;margin-top:25px;font-size:17px;}
+.notice_more a{color:black;}
+.notice_more img{position: relative;top:-2px;}
+
+
+.main_wrap .main_section .right_aside{width:300px;float:left;}
+.main_wrap .main_section .right_aside .top_login_section{height:90px;margin-bottom:7px;}
+.main_wrap .main_section .right_aside .top_login_section span {display:block;width:270px;margin:15px 0 0 14px;}
+.main_wrap .main_section .right_aside .top_login_section span p{font-size:12px;line-height:12px;height:12px;}
+.main_wrap .main_section .right_aside .top_login_section span a{display:block;text-align:center;font-size:20px;font-weight:bold;color:white;background-color:#FF1212;padding:10px 0 10px;margin-top:7px;border-radius: 3px;}
+.main_wrap .main_section .right_aside .top_login_section span a:hover{background-color:#ED0000;cursor:pointer;}
+
+.main_wrap .main_section .right_aside .bottom_slide_banner{position:relative;z-index:1;height:200px;overflow:hidden;}
+.main_wrap .main_section .right_aside .bottom_slide_banner ul{margin:0;padding:0; width:calc(100%*3);display:flex;animation:bottom_slide_banner 12s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.main_wrap .main_section .right_aside .bottom_slide_banner li{position:relative;width:calc(100%/3);height:200px;margin:0;}
+.main_wrap .main_section .right_aside .bottom_slide_banner img{position: relative;left:0;top:0; }
+
+@keyframes bottom_slide_banner {
+  0% {margin-left:0;}
+  15% {margin-left:0;}
+  33% {margin-left:-100%;}
+  50% {margin-left:-100%;}
+  68% {margin-left:-200%;}
+  90% {margin-left:-200%;}
+  100% {margin-left:0;}
+}

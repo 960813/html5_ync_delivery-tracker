@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>YNC Delivery-Tracker</title>
+
+  <link href="../images/ico/icon-128.png" rel="icon" data-n-head="true" sizes="128x128">
+
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <script src="../plugins/jquery-3.4.1.min.js"></script>
+  <script src="../js/includeHTML.js"></script>
+
+</head>
+
+<body>
+  <div include-html="../include/header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <div class="remain" id="main_area_container">
+    <div class="centerArea">
+      <div class="left_aside">
+        <h2>고객센터</h2>
+        <ul>
+          <li class="on">
+            <a href="//delivery.foretion.com/pages/commingup.html" title="고객센터">고객센터</a>
+            <div class="subitem_group">
+              <ul>
+                <li>
+                  <a href="//delivery.foretion.com/pages/commingup.html" title="찾아오시는 길">찾아오시는 길</a>
+                </li>
+                <li class="on">
+                  <a href="//delivery.foretion.com/pages/contact.html" title="이메일 문의">이메일 문의</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right_section">
+        <div class="content-top">
+          <div class="content-top-title"> <a href="//delivery.foretion.com/pages/contact.html" title="이메일 문의">이메일 문의</a></div>
+          <div class="content-navigation">
+            <span class="content-top-detail">홈 > 고객센터 > 이메일 문의</span>
+          </div>
+        </div>
+        <div class="contact-form">
+
+          <form name="mail_process" onsubmit="return check();">
+            <label for="contact-customer-email">고객 이메일</label>
+            <input type="email" name="contact-customer-email" placeholder="이메일 입력..">
+
+            <label for="contact-customer-name">고객 이름</label>
+            <input type="text" name="contact-customer-name" placeholder="이름 입력..">
+
+            <label for="contact-type-list">문의 카테고리</label>
+            <select name="contact-type-list">
+              <option value="배송조회">배송조회</option>
+              <option value="제휴문의">제휴문의</option>
+              <option value="기타문의">기타문의</option>
+            </select>
+
+            <label for="contact-customer-body">문의 내용</label>
+            <textarea name="contact-customer-body" placeholder="내용 입력.." style="height:200px"></textarea>
+
+            <input type="submit" value="문의하기">
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div include-html="../include/footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+  <script src="../js/sendMessage.js"></script>
+</body>
+
+</html>

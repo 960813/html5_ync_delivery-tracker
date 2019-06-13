@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>YNC Delivery-Tracker</title>
+
+  <link href="../images/ico/icon-128.png" rel="icon" data-n-head="true" sizes="128x128">
+
+  <link rel="stylesheet" type="text/css" href="../css/tracker.css">
+  <script src="../plugins/jquery-3.4.1.min.js"></script>
+  <script src="../js/includeHTML.js"></script>
+</head>
+
+<body>
+  <div include-html="../include/header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <div class="remain" id="main_area_container">
+    <div class="centerArea">
+      <div class="left_aside">
+        <h2>주요서비스</h2>
+        <ul>
+          <li class="on">
+            <a href="//delivery.foretion.com/pages/tracker.html" title="주요서비스">주요서비스</a>
+            <div class="subitem_group">
+              <ul>
+                <li class="on">
+                  <a href="//delivery.foretion.com/pages/tracker.html" title="배송조회">배송조회</a>
+                </li>
+                <li>
+                  <a href="//delivery.foretion.com/pages/companylist.html" title="배송업체목록">배송업체목록</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right_section">
+        <div class="content-top">
+          <div class="content-top-title"> <a href="//delivery.foretion.com/pages/tracker.html" title="배송조회">배송조회</a></div>
+          <div class="content-navigation">
+            <span class="content-top-detail">홈 > 주요서비스 > 배송조회</span>
+          </div>
+        </div>
+        <form class="trackerForm">
+          <select id="t_code" name="t_code">
+            <option value="-1">배송업체선택</option>
+          </select>
+          <input type="text" name="t_invoice" id="t_invoice" placeholder="운송장 번호">
+          <input type="submit" value="조회하기">
+        </form>
+        <div class="tracking-detail">
+          <section class="tracking-progresses">
+            <span></span>
+          </section>
+          <section class="tracking-info">
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div include-html="../include/footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+  <script src="../js/tracker.js"></script>
+</body>
+
+</html>

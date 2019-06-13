@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <title>YNC Delivery-Tracker</title>
+
+  <link href="../images/ico/icon-128.png" rel="icon" data-n-head="true" sizes="128x128">
+
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <script src="plugins/jquery-3.4.1.min.js"></script>
+  <script src="js/includeHTML.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div include-html="include/header.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+
+  <div class="remain" id="main_area_container">
+    <div class="centerArea">
+
+      <div class="main_wrap">
+
+        <div class="large_slide_banner classified_box">
+          <ul>
+            <li>
+              <img src="images/banner/img1.jpg" alt="">
+              <p class="navigation_content">
+                당신의 <span id="color_red">꿈</span>과 <span id="color_red">희망</span>을<br>
+                전달해드리겠습니다.
+              </p>
+            </li>
+            <li>
+              <img src="images/banner/img2.jpg" alt="">
+              <p class="navigation_content">
+                소중한 사람에게<br>
+                당신의 <span id="color_red">이야기</span>를<br>
+                전달해드리겠습니다.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="main_section">
+          <div class="left_section">
+            <div class="top_quick_navigation classified_box">
+              <div><a href="//delivery.foretion.com/pages/business.html"><i class="far fa-building redstyle-ico"></i><br>비즈니스 소개</a></div>
+              <div><a href="//delivery.foretion.com/pages/alliance_01.html"><i class="fas fa-cogs redstyle-ico"></i><br>배송조회API</a></div>
+              <div><a href="//delivery.foretion.com/pages/alliance_02.html"><i class="fas fa-plane redstyle-ico"></i><br>화물추적</a></div>
+              <div><a href="//delivery.foretion.com/pages/commingup.html"><i class="fas fa-map-marked-alt redstyle-ico"></i><br>찾아오시는길</a></div>
+              <div><a href="//delivery.foretion.com/pages/contact.html"><i class="fas fa-comments redstyle-ico"></i><br>온라인문의</a></div>
+            </div>
+            <div class="bottom_section">
+              <div class="bottom_notice classified_box">
+                <p class="title"><span>공지</span>사항</p>
+                <span class="notice_more"><a href="//delivery.foretion.com/pages/board_list.html" title="공지사항 더보기">더보기 <img src="images/others/notice_more.gif" alt="공지사항 더보기"></a></span>
+                <table>
+                  <tr><td></td><td></td></tr>
+                  <tr><td></td><td></td></tr>
+                  <tr><td></td><td></td></tr>
+                  <tr><td></td><td></td></tr>
+                  <tr><td></td><td></td></tr>
+                  <tr><td></td><td></td></tr>
+                </table>
+
+
+              </div>
+              <div class="service_info_banner classified_box">
+                <p class="title"><span>문의</span>안내</p>
+                <span class="content">
+
+                  <table>
+                    <tr>
+                      <td>대표</td>
+                      <td>진태양</td>
+                    </tr>
+                    <tr>
+                      <td>학번</td>
+                      <td>1905096</td>
+                    </tr>
+                    <tr>
+                      <td>대표번호</td>
+                      <td>010-9904-0960</td>
+                    </tr>
+                    <tr>
+                      <td>제휴문의</td>
+                      <td>delivery@foretion.com</td>
+                    </tr>
+                    <tr>
+                      <td>기술문의</td>
+                      <td>martin@foretion.com</td>
+                    </tr>
+                  </table>
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="right_aside">
+            <div class="top_login_section classified_box">
+              <span>
+                <!--로그인섹션 내용(jquery append)-->
+              </span>
+            </div>
+            <div class="bottom_slide_banner classified_box">
+              <ul>
+                <li><a href="http://www.ync.ac.kr/kor/Main.do" target="_blank"><img src="images/banner/family_banner_01.jpg" alt="영남이공대학교 바로가기"></a></li>
+                <li><a href="http://computer.ync.ac.kr/" target="_blank"><img src="images/banner/family_banner_02.jpg" alt="컴퓨터정보과 바로가기"></a></li>
+                <li><a href="http://www.sweettracker.co.kr/" target="_blank"><img src="images/banner/family_banner_03.jpg" alt="스윗트래커 바로가기"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <span style="color:red; font-weight:bold;">♥현주한테 잘해주기♥</span><br>
+      <p style="text-align:left;">
+        해야할일<br>
+        <del>
+          1) 배송조회 시 데이터 베이스에 기록(로그인 상태일 때 만)<br>
+          2) 로그인 후 마이페이지 접속 시 배송조회 기록 불러오기(페이징 기능 고려중)<br>
+          3) 개인정보처리방침 내용 넣기<br>
+          4) 이메일주소수집거부 내용 넣기<br>
+          5) 마이페이지 조회 시 회원별 넘버 부여하기<br>
+          6) 마이페이지 : 메모 관리(편집,삭제)<br>
+          7) 마이페이지 바로가기(new window, 새로운 html파일 생성 후 그 곳에서 뿌려주기..)<br>
+          8) 마이페이지에서 tr 태그 클릭 시 new window되는 것 마지막 td에는 제외시키는 방법(??)<br>
+          9) 홈 > 서비스 소개 > 비즈니스 소개 내용 넣기<br>
+          10) 홈 > 제휴사업 > 화물추적 내용 넣기<br>
+        </del>
+        ----------------------------<br>
+        ★고려중★<br>
+        1) 홈 > 고객센터 > 이메일 문의 => 회원만??혹은 비회원도? 둘다? 둘다라면 회원은 이메일/이름 자동입력?<br>
+        2) 홈 > 고객센터 > 이메일 문의 => 문의 내역 디비 저장? 답변....<br>
+        3) 회원 등급 : 관리자(문의 내역 답변 기능), 일반<br>
+        ----------------------------<br>
+        <span style="color:red; font-weight:bold;">♥현주한테 잘해주기♥</span><br>
+        1) 메인 페이지 꾸미기... => 뉴스 토픽처럼??<br>
+      </p>
+    -->
+    </div>
+  </div>
+
+  <div include-html="include/footer.html">
+    <script>
+      includeHTML();
+    </script>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@charset "euc-kr";
+
+.remain{width:100%; padding:150px 0 40px 0; }
+
+
+.remain .centerArea{width:1024px; margin: 0 auto; text-align:center;overflow:hidden;}
+
+.content-top {text-align:left;}
+.content-top .content-top-title{ font-size:40px; line-height:40px; color:black; font-weight:bold;}
+.content-top .content-navigation{margin: 15px 0 15px 0;}
+.content-top .content-navigation .content-top-detail{color:gray; padding-left:20px; background:url("../images/others/home_ico.png") no-repeat left top;}
+
+.left_aside {float:left; text-align:left; width:196px; margin-top:24px;}
+.left_aside h2{ font-size: 22px; line-height: 22px; color:black; border-bottom: 1px solid gray; padding:0 0 18px 0; margin-top:20px;}
+.left_aside ul {width:100%; height:100%; margin:0;}
+.left_aside > ul > li > a {display:block; padding:10px; font-size:13px; color:gray; background: url("../images/others/aside_ico_off.png") no-repeat 175px 16px; text-decoration:none; border-bottom: 1px solid #e4e4e4;}
+
+.left_aside > ul > li.on > a,
+.left_aside > ul > li:hover > a,
+.left_aside > ul > li > a:focus { color: white;  background: url("../images/others/aside_ico_on.png") no-repeat 175px 16px red; font-weight: bold; text-decoration: none; display:block;}
+
+.left_aside ul li .subitem_group { margin:0; padding:0; position:absolute; top:-9999px; visibility:hidden; }
+.left_aside ul li.on .subitem_group  { position:relative; top:0; visibility:visible; }
+
+.left_aside ul > li > div.subitem_group > ul { background: #fafafa; border-bottom: 1px solid #e4e4e4; padding: 6px 0 8px 0;}
+.left_aside ul > li > div.subitem_group > ul > li > a { display: block;  padding: 5px 10px 5px 25px; color: #727272; background: url("/images/others/aside_ico01.png") no-repeat 16px 13px;}
+
+.left_aside ul > li > div.subitem_group > ul > li > a:hover,
+.left_aside ul > li > div.subitem_group > ul > li > a:active,
+.left_aside ul > li > div.subitem_group > ul > li > a:focus{ color:red; font-weight:bold;}
+
+.left_aside ul li.on .subitem_group ul li.on a { color:red; font-weight:bold;}
+
+
+.right_section {float:left; margin-left:50px; width:778px;}
