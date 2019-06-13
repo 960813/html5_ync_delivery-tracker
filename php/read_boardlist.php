@@ -5,7 +5,7 @@
   $response_array['title'] = 'YNC DeliveryTracker';
 
 
-  $readnoticelist_query="select * from notice_list order by no DESC limit 5";
+  $readnoticelist_query="select * from notice_list order by no DESC limit 7";
   $res = mysqli_query($dbcon,$readnoticelist_query);
   if(mysqli_num_rows($res)>0)
   {
