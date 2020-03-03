@@ -54,7 +54,7 @@
 
 * [About the Project](#about-the-project)
   * [Summary](#summary)
-  * [Main Contents](#main-features)
+  * [Main Features](#main-features)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
