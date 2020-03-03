@@ -163,4 +163,4 @@ Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jupiterflow
 
-[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/workspace.JPG
+[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/images/workspace.JPG?raw=true
