@@ -70,16 +70,14 @@
 
 [![YNC Delivery-Tracker Screen Shot][product-screenshot]](https://delivery.jupiterflow.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+이 프로젝트는 영남이공대학교 컴퓨터정보과 2019학년도 1학년 1학기 HTML5/CSS3 기말 실기시험(프로젝트 제작 및 발표) 평가를 위해 제작된 프로젝트입니다.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+요약:
+* 최소 HTML 파일 개수 충족을 위한 HTML 기반
+* DB 연동을 위한 PHP Model
+* JQuery, Ajax를 이용한 Front Controller
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 * [JQuery](https://jquery.com)
@@ -135,8 +133,10 @@ const API_KEY = 'ENTER YOUR API';
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-
+1. 배송조회 메뉴 진입
+2. 배송업체 선택
+3. 송장번호 입력
+4. 조회하기
 
 
 <!-- CONTRIBUTING -->
