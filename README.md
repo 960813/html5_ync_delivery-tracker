@@ -27,7 +27,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/JupiterFlow/html5_ync_delivery-tracker">
-    <img src="https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/README.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/images/README.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">HTML5 YNC Delivery-Tracker</h3>
