@@ -69,7 +69,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
 [![YNC Delivery-Tracker Screen Shot][product-screenshot]](https://delivery.jupiterflow.com)
 
 이 프로젝트는 영남이공대학교 컴퓨터정보과 2019학년도 1학년 1학기 HTML5/CSS3 기말 실기시험(프로젝트 제작 및 발표) 평가를 위해 제작된 프로젝트입니다.
@@ -80,7 +79,9 @@
 * JQuery, Ajax를 이용한 Front Controller
 
 ### Main Contents
-*  
+* 공지사항 조회/작성/수정/삭제
+* 배송조회(SweetTracker API 연동)
+* 로그인 후 배송조회 시 마이페이지에서 현황 관리 가능
 
 ### Built With
 * [JQuery](https://jquery.com)
@@ -137,8 +138,6 @@ Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https:
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
 * [Smart Editor2](https://github.com/naver/smarteditor2)
 * [Sweet Tracker](http://www.sweettracker.co.kr/)
 
