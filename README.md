@@ -27,7 +27,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/JupiterFlow/html5_ync_delivery-tracker">
-    <img src="https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/images/README.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/README.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">HTML5 YNC Delivery-Tracker</h3>
@@ -157,4 +157,4 @@ Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https:
 [license-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jupiterflow
-[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/images/workspace.JPG?raw=true
+[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/workspace.JPG
