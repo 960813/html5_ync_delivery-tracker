@@ -56,9 +56,6 @@
   * [Summary](#summary)
   * [Main Features](#main-features)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
@@ -87,20 +84,6 @@
 * [JQuery](https://jquery.com)
 * [MariaDB](https://mariadb.org)
 * [PHP](https://www.php.net)
-
-<!-- GETTING STARTED -->
-## Getting Started
-Not provided.
-
-### Prerequisites
-```sh
-Nothing.
-```
-
-### Installation
-```sh
-Not provided.
-```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
