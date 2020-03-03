@@ -90,9 +90,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-```sh
+
 Not provided.
-```
 
 <!--
 This is an example of how you may give instructions on setting up your project locally.
@@ -113,7 +112,9 @@ npm install npm@latest -g
 -->
 ### Installation
 
+```sh
 Not provided.
+```
 
 <!--
 1. Get a free API Key at [https://example.com](https://example.com)
