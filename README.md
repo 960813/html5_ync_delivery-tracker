@@ -145,16 +145,22 @@ Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JupiterFlow/html5_ync_delivery-tracker.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/JupiterFlow/html5_ync_delivery-tracker?style=flat-square
 [contributors-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JupiterFlow/html5_ync_delivery-tracker.svg?style=flat-square
+
+[forks-shield]: https://img.shields.io/github/forks/JupiterFlow/html5_ync_delivery-tracker?style=flat-square
 [forks-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/JupiterFlow/html5_ync_delivery-tracker.svg?style=flat-square
+
+[stars-shield]: https://img.shields.io/github/stars/JupiterFlow/html5_ync_delivery-tracker?style=flat-square
 [stars-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/JupiterFlow/html5_ync_delivery-tracker.svg?style=flat-square
+
+[issues-shield]: https://img.shields.io/github/issues/JupiterFlow/html5_ync_delivery-tracker?style=flat-square
 [issues-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/issues
-[license-shield]: https://img.shields.io/github/license/JupiterFlow/html5_ync_delivery-tracker.svg?style=flat-square
+
+[license-shield]: https://img.shields.io/github/license/JupiterFlow/html5_ync_delivery-tracker?style=flat-square
 [license-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jupiterflow
+
 [product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/workspace.JPG
