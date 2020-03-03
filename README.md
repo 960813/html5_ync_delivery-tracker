@@ -72,64 +72,32 @@
 
 이 프로젝트는 영남이공대학교 컴퓨터정보과 2019학년도 1학년 1학기 HTML5/CSS3 기말 실기시험(프로젝트 제작 및 발표) 평가를 위해 제작된 프로젝트입니다.
 
-요약:
+### Summary
 * 최소 HTML 파일 개수 충족을 위한 HTML 기반
 * DB 연동을 위한 PHP Model
 * JQuery, Ajax를 이용한 Front Controller
 
-
+### Main Contents
+*  
 
 ### Built With
 * [JQuery](https://jquery.com)
 * [MariaDB](https://mariadb.org)
 * [PHP](https://www.php.net)
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
 Not provided.
 
-<!--
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
--->
 ### Prerequisites
-
 ```sh
 Nothing.
 ```
 
-<!--
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
--->
 ### Installation
-
 ```sh
 Not provided.
 ```
-
-<!--
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
--->
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -141,7 +109,6 @@ const API_KEY = 'ENTER YOUR API';
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
 This repository is not managed.
 
 <!--
@@ -157,15 +124,11 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - JIN TAEYANG - keriel@jupiterflow.com
+JIN TAEYANG - keriel@jupiterflow.com
 
 Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https://github.com/JupiterFlow/html5_ync_delivery-tracker)
 
