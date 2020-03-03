@@ -36,7 +36,7 @@ Live DEMO : [YNC Delivery-Tracker](https://delivery.jupiterflow.com)
 <br />
 <p align="center">
   <a href="https://github.com/JupiterFlow/html5_ync_delivery-tracker">
-    <img src="images/logo.jpg" alt="Logo" width="650" height="250">
+    <img src="images/logo.jpg" alt="Logo" width="300" height="115">
   </a>
 
   <h3 align="center">HTML5 YNC Delivery-Tracker</h3>
