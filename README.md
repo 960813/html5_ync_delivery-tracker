@@ -90,8 +90,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+```sh
 Not provided.
+```
 
 <!--
 This is an example of how you may give instructions on setting up your project locally.
@@ -99,7 +100,9 @@ To get a local copy up and running follow these simple example steps.
 -->
 ### Prerequisites
 
+```sh
 Nothing.
+```
 
 <!--
 This is an example of how to list things you need to use the software and how to install them.
@@ -189,4 +192,4 @@ Project Link: [https://github.com/JupiterFlow/html5_ync_delivery-tracker](https:
 [license-url]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jupiterflow
-[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/images/workspace.JPG
+[product-screenshot]: https://github.com/JupiterFlow/html5_ync_delivery-tracker/blob/master/images/workspace.JPG
